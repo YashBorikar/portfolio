@@ -1,0 +1,210 @@
+body {
+  font-family: 'Lato', arial, sans-serif;
+  color: #434343;
+  font-size: 16px;
+  background: linear-gradient(to right, #FED6E3, #A8EDEA);
+}
+
+.container {
+    padding-left: 10px;
+}
+
+/* ======= Header ======= */
+
+.header {
+background: rgba(255,255,255,0.4);
+padding: 30px 0;
+box-shadow: 0px 0px 20px grey;
+}
+
+.header .profile-image {
+  margin-right: 80px;
+  margin-top: 20px;
+}
+
+.header .profile{
+  margin-right: 20px;
+}
+
+.header .profile .name{
+    font-family: 'Archivo Black';
+    font-size: 48px;
+    background: linear-gradient(to bottom right, #ff0000 10%, #0000ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:bold;
+    margin-bottom: 0rem;
+    line-height: 0.9;
+}
+
+.header .profile .desc{
+  font-family: 'Montserrat';
+  font-size: 35px;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  color: #434343;
+}
+
+.header .profile .social a {
+  background: #b0b7bf;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+.header .profile .social a:hover {
+  background: linear-gradient(to bottom right, #FF6666 10%, #B3B3FF 100%);
+}
+
+.header .profile .social a .fa {
+  font-size: 25px;
+  padding-top: 8px;
+}
+
+/* ======= Sections ======= */
+
+.content{
+  font-family: 'Poppins';
+}
+.sections-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+section {
+  margin-bottom: 30px;
+}
+section .section-inner {
+  background: rgba(255,255,255,0.6);
+  padding: 30px;
+  border-radius: 1.5rem;
+}
+section .heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  background: linear-gradient(to bottom right, #ff0000 3%, #0000ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-family: 'Poppins';
+}
+
+section .education-details{
+margin-left: 30px
+}
+
+/* ======= Projects ======= */
+
+.project:hover{
+  background: linear-gradient(to bottom right, #fff 80%, #e6e6ff 60%);
+  background: 0.5;
+  box-shadow: 0px 0px 10px #888;
+}
+
+.project-row{
+  margin-bottom: 50px;
+}
+
+.project img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.project-details{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.responsive{
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+}
+
+
+
+/* ======= Aside Details ======= */
+
+
+.secondary .content .social a {
+  background: #b0b7bf;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+.secondary .content .social a:hover {
+  background: #434343;
+}
+
+.secondary .content .social a .fa {
+  font-size:20px;
+  padding-top: 5px;
+}
+
+.section-aside{
+  background: rgba(255,255,255,0.5);
+  padding: 30px;
+  border-radius: 1.5rem;
+}
+
+.section-aside .skill-list img{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.section-aside .skill-list li{
+  background: linear-gradient(to bottom right, #ff0000 30%, #0000ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins';
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.section-aside:hover{
+  background: linear-gradient(to bottom right, #fff 80%, #e6e6ff 60%);
+  background: 0.5;
+  box-shadow: 0px 0px 10px #888;
+}
+section .aside-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  background: linear-gradient(to top left, #ff0000 40%, #0000ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-family: 'Poppins';
+}
+
+/* ======= contact ======= */
+
+.contact_field{
+  width: 40%;
+  border-radius: .5rem;
+  padding: 1rem;
+  border: 1.5px;
+}
+
+/* ======= Footer ======= */
+footer {
+  background: #505050;
+  color: #fff;
+  padding: 10px;
+  margin-left: 0px;
+}
+
+footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
