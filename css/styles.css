@@ -53,6 +53,8 @@ box-shadow: 0px 0px 20px grey;
   border-radius: 50%;
   color: #fff;
   text-align: center;
+  transition: 0.5s;
+
 }
 
 .header .profile .social a:hover {
@@ -73,6 +75,7 @@ box-shadow: 0px 0px 20px grey;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 section {
   margin-bottom: 30px;
 }
@@ -101,6 +104,7 @@ margin-left: 30px
   background: linear-gradient(to bottom right, #fff 80%, #e6e6ff 60%);
   background: 0.5;
   box-shadow: 0px 0px 10px #888;
+  transition: 0.5s;
 }
 
 .project-row{
@@ -126,6 +130,36 @@ margin-left: 30px
   height: auto;
 }
 
+.git-icon{
+  background: #434343;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.git-icon:hover {
+  background: #b0b7bf;
+}
+
+.git-icon .fa {
+  font-size:20px;
+  padding-top: 5px;
+}
+
+@media (min-width: 992px) {
+  .project-image{
+  padding-top: 30%;
+  width: 280px;
+}
+
+}
+
+
+
 
 
 /* ======= Aside Details ======= */
@@ -139,6 +173,7 @@ margin-left: 30px
   border-radius: 50%;
   color: #fff;
   text-align: center;
+  transition: 0.5s;
 }
 
 .secondary .content .social a:hover {
@@ -154,12 +189,14 @@ margin-left: 30px
   background: rgba(255,255,255,0.5);
   padding: 30px;
   border-radius: 1.5rem;
+  transition: 0.5s;
 }
 
 .section-aside .skill-list img{
   width: 60px;
   height: 60px;
   margin-bottom: 15px;
+
 }
 
 .section-aside .skill-list li{
@@ -175,6 +212,7 @@ margin-left: 30px
   background: linear-gradient(to bottom right, #fff 80%, #e6e6ff 60%);
   background: 0.5;
   box-shadow: 0px 0px 10px #888;
+
 }
 section .aside-heading {
   margin-top: 0;
@@ -193,6 +231,11 @@ section .aside-heading {
   border-radius: .5rem;
   padding: 1rem;
   border: 1.5px;
+}
+
+.button{
+  border-radius: 30px;
+  transition: 0.5s;
 }
 
 /* ======= Footer ======= */
