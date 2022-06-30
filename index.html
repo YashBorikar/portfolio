@@ -1,256 +1,595 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="Yash Borikar, Portfolio" content=" Yash Borikar , Portfolio , Data Science , Data Analytics , Software Developer , Artificial Intelligence , Machine Learning , Deep Learning "/>
+    <title>Yash Borikar | Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Qwitcher+Grypen:wght@700&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="images/Icons/favicon.ico"/>
 
-	<!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container">
-        	<img class="profile-image img-responsive pull-left" src="images\Profile\My_Image.jpg" alt="Yash Profile Image" title="Portfolio" height="210" width="210" style="box-shadow: 0px 0px 10px #888; border-radius: 100px 100px 100px 100px;"/>                    
-            
-            <div class="profile pull-left">
-                <h1 class="name"><span style="font-size: 35px;">I'm</span><br>
-                YASH <br> BORIKAR</h1>
-                <h2 class="desc">Developer</h2>
-                <ul class="social list-inline">
-                    <li><a href="https://www.linkedin.com/in/ysborikar2411" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/ysborikar2411/" target="_blank"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://www.facebook.com/yash.borikar.1" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/ysborikar2411/" target="_blank"><i class="fa fa-instagram"></i></a></li>      
-                </ul> 
-            </div><!--//profile-->
-        </div><!--//container-->
-    </header><!--//header-->
 
-    <div class="container sections-wrapper">
+<div id="main_container">
+    <div style='overflow: auto;'>
+        <canvas id="nokey" width="600" height="600"></canvas>
+    </div>
+    
+    <div class="row d-flex justify-content-center flex-nowrap">
         <div class="row">
-            <div class="col-md-8 col-sm-12 col-xs-12">
-                <section>
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                           
-                            <p>I am <strong>Yash Borikar</strong> who aims to find an exciting and challenging <strong>entry level position</strong> in information and technology industry.</p>
-                            <p>A Bachelor degree in Mechanical Engineering and proficient in coading and all technical skills as Web Developer.</p>
-                            I am an enthusiastic, responsible person and curious to learn and implement new things and technologies. My strength are Positive Attitude, Quick Learner.</p>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-
-                <section>
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                        	<div >
-                            	<p style="font-size: 20px;"><i style="font-size: 20px;" class="fa fa-graduation-cap"></i> Sant Gadge Baba Amravati University, Amravati</p>
-                            </div>
-                            <div class="education-details">
-                            	<p>BE, Mechanical Engineering</p>
-                            	<p>Secured 8.70 CGPA<br>
-                            	Year of Passing: 2018</p>
-                        	</div>
-
-                        	<div >
-                            	<p style="font-size: 20px;"><i style="font-size: 20px;" class="fa fa-graduation-cap"></i> Maharashtra State Board</p>
-                            </div>
-                            <div class="education-details">
-                            	<p>HSC-Board, PCM + Electronics</p>
-                            </div>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-
-                <section>
-                    <div class="section-inner project">
-                        <h2 class="heading">Projects</h2>
-                        <div class="content">
-                        	<div class="row project-row">
-                        		<div class="col-lg-6 col-md-7 col-sm-12 col-xm-12">
-                        			<img class="responsive" src="images\Icons\GCP_Project.jpg" alt="GCP_Project">
-                        		</div>
-                        		<div class="col-lg-6 col-md-5 col-sm-12 col-xm-12 project-details ">
-                        			<h3>Google Cloud Platform</h3><br>
-                        			<p> Deployed a <strong>Multi-tier Web Application</strong> over GCP(Google Cloud Platform) using <strong>VPC Peering, Kubernetes Cluster, Load Balancer and SQL Database</strong> service of Google Cloud.</p>
-
-                        			<a style="text-align: center;" class="btn btn-success button" href="https://www.linkedin.com/pulse/deploying-containerized-multi-tier-database-using-services-borikar/?trackingId=%2FxMdMWkbv9aNeePtsU4ALw%3D%3D" target="_blank"> More on Linkedin</a>
-                        		</div>
-                        	</div>
-
-							<div class="row project-row">
-                        		<div class="col-lg-6 col-md-7 col-sm-12 col-xm-12">
-                        			<a href="https://ysborikar2411.pythonanywhere.com/" target="_blank"><img class="responsive project-image" src="images\Icons\Swift_Project.png" alt="Swift Image" ></a>
-                        		</div>
-                        		<div class="col-lg-6 col-md-5 col-sm-12 col-xm-12 project-details">
-                        			<h3>Airline Ticket Booking Web-Application</h3><br>
-                        			<p>Created Responsive <strong>Swift Airline Ticket Booking Web-Application</strong> without payment gateway with provision to Book Airline Ticket. This Web-Application provide Public view and Admin Management view. Check details and more features on Swift Airline Ticket Booking Web-Application.</p>
-                        			<p><strong>Technology Stack: </strong>&nbsp Django, Python, HTML, CSS, JS, Bootstrap, GitHub, Deployment on Pythonanywhere</p>
-
-                        			<a style="text-align: center;" class="btn btn-success button" href="https://ysborikar2411.pythonanywhere.com/" target="_blank"> Swift Airline Web-Application</a>&nbsp&nbsp
-                        			<a href="https://github.com/ysborikar2411/Swift_Airline_WebApplication" class='git-icon' target="_blank"><i class="fa fa-github"></i></a>
-                        		</div>
-                        	</div>
-
-                        	<div class="row project-row">
-                        		<div class="col-lg-6 col-md-7 col-sm-12 col-xm-12">
-                        			<a href="https://yash24.pythonanywhere.com/" target="_blank"rr0=><img class="responsive project-image" src="images\Icons\Wanderlust_Project.png" alt="Wanderlust Image"></a>
-                        		</div>
-                        		<div class="col-lg-6 col-md-5 col-sm-12 col-xm-12 project-details">
-                        			<h3>Travel Blog Web-Application</h3><br>
-                        			<p>Created Interactive <strong> Wanderlust Travel Blog Application</strong> with provision to Read , Comment, Share Blog and Create new Blog for Registered User.</p>
-                        			<p><strong>Technology Stack: </strong>&nbsp Django, Python, HTML, CSS, JS, Bootstrap, GitHub, Deployed on Pythonanywhere</p>
-
-                        			<a style="text-align: center;" class="btn btn-success button" href="https://yash24.pythonanywhere.com/" target="_blank"> Wanderlust Blog Web-Application</a>&nbsp&nbsp
-                        			<a href="https://github.com/ysborikar2411/Wanderlust_Blog" class='git-icon' target="_blank"><i class="fa fa-github"></i></a>
-                        		</div>
-                        	</div>
-
-                        	<div class="row project-row">
-                        		<div class="col-lg-6 col-md-7 col-sm-12 col-xm-12">
-                        			<img class="responsive" src="images\Icons\Azure_Project.jpg" alt="" >
-                        		</div>
-                        		<div class="col-lg-6 col-md-5 col-sm-12 col-xm-12 project-details">
-                        			<h3>Microsoft Azure Cloud</h3><br>
-                        			<p>Deployed a <strong>Multi-tier Web Application</strong> over  Microsoft Azure Cloud using <strong>Web Apps Service, Azure Virtual Network (VNet), Kubernetes Cluster, Load Balancer and Database</strong> service of Microsoft Azure</p>
-                        		</div>
-                        	</div>
-
-                          	<div class="row project-row">
-                        		<div class="col-lg-6 col-md-7 col-sm-12 col-xm-12">
-                        			<img class="responsive" src="images\Icons\Docker.jpg" alt="Docker">
-                        		</div>
-                        		<div class="col-lg-6 col-md-5 col-sm-12 col-xm-12 project-details">
-                        			<h3>Initialize/Terminate Docker Container by Voice Control</h3><br>
-                        			<p> Launch or Terminate/Remove <strong>DOCKER Container</strong> on Virtual Machine by Voice Control using Web API</p>
-                        			<p><strong>Technology Stack: </strong>&nbsp Python, Virtual Machine : RHEL8 Linux, Docker Service</p>
-
-                        			<a style="text-align: center;" class="btn btn-success button" href="https://www.linkedin.com/posts/ysborikar2411_python-cgi-iiec-activity-6716740501820723200-QGOX" target="_blank"> More on Linkedin</a>
-                        		</div>
-                        	</div>
-
-                        	<div class="row project-row">
-                        		<div class="col-lg-6 col-md-7 col-sm-12 col-xm-12">
-                        			<img class="responsive" src="" alt="" >
-                        		</div>
-                        		<div class="col-lg-6 col-md-5 col-sm-12 col-xm-12 project-details">
-                        			<h3>Portfolio Project</h3><br>
-                        			<p> Created Portfolio Website using HTML, CSS, JavaScript, Bootstrap</p>
-                        		</div>
-                        	</div>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-            </div><!--//column-->
-
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
-        		<section>
-        			<div class="section-aside">
-                    	<h2 class="aside-heading">Reach me</h2>
-                        <div class="content">
-                        	<p><i class="fa fa-envelope"></i>&nbsp&nbsp&nbsp&nbsp <strong>ysborikar2411@gmail.com</strong></p>
-                        	<p><i class="fa fa-phone"></i>&nbsp&nbsp&nbsp&nbsp <strong>+91 8600914430</strong></p>
-                        	
-                        	<ul class="social list-inline">
-                        		<li><a href="https://www.linkedin.com/in/ysborikar2411" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        		<li><a href="https://github.com/ysborikar2411/" target="_blank"><i class="fa fa-github"></i></a></li>
-                        		<li><a href="https://www.facebook.com/yash.borikar.1" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        		<li><a href="https://www.instagram.com/ysborikar2411/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        	</ul>
-                        </div><!--//content-->
-                    </div><!--//section-aside-->          
-            	</section>
-
-        		<section>
-                    <div class="section-aside">
-                        <div class="content" style="text-align: center;">
-                        	<a style="margin-right: 10px;" class="btn btn-lg btn-default button" href="https://drive.google.com/file/d/1eNOG0VbOd5y-4YvcceprkiJfGzcHkj_h/view?usp=sharing" target="_blank"><span class="glyphicon glyphicon-download-alt"></span>&nbsp Resume</a>
-                        	<a class="btn btn-lg btn-default button"  href="mailto:ysborikar2411@gmail.com"><span class="glyphicon glyphicon-send"></span>&nbsp Mail</a>
-                        </div><!--//content-->  
-                    </div><!--//section-aside-->                 
-            	</section>
-
-            	<section class="section-aside">
+            <div class="col-md-10 offset-md-1">
+                <div class="head-block">
                     <div>
-                        <h2 class="aside-heading">Skills</h2>
-                        <div class="content">
-                                <h3>Languages</h3><br>
-                                    <ul class="skill-list list-inline" style="font-weight: bold; text-align: center">
-                                        <li><img src="images\Icons\Python.jpg" alt="Python"><br>Python</li>
-                                        <li><img src="images\Icons\SQL.jpg" alt="SQL"><br>SQL</li>
-                                    </ul><br>                          
-         
-                                    <h3>Frameworks</h3><br>
-                                    <ul class="skill-list list-inline" style="font-weight: bold; text-align: center">
-                                        <li><img src="images\Icons\Django.jpg" alt="Django" style="width: 120px; height: 50px"><br>Django</li>
-                                        <li><img src="images\Icons\DjangoREST.jpg" alt="DjangoREST" style="width: 120px; height: 50px"><br>Django REST API</li>
-                                    </ul><br>              
+                        <section>
+                            <a class="top-buttons" href="https://drive.google.com/file/d/1vhplVhMF4RSl5fF5-FT0dxzTZEqtmgGT/view?usp=sharing" target="_blank">
+                                <span><i class="fa fa-download"></i>&nbsp Resume</span>
+                            </a>
+                         </section> 
+                    </div>
+                    <div id="overlay">
+                        <div class="container head-container row">
+                            <div class='col-xl-4'>
+                                <img class="img-responsive" src="images\Profile\yash_image2.jpg" alt="Yash Profile Image" title="Portfolio" height="210" width="210"/>
+                            </div>
+                            <div class='profile col-xl-7'>
+                                <h1 class="name">
+                                    <span style="font-size: 25px;">Hi, I'm</span><br>
+                                    YASH BORIKAR
+                                </h1>
+                                <p><span class="typed-text desc"></span><span class="cursor">&nbsp;</span></p>
+                                <ul class="social list-group list-group-horizontal" style="list-style: none;">
+                                    <li><a href="https://www.linkedin.com/in/yashborikar" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://github.com/YashBorikar" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="https://medium.com/@ysborikar24" target="_blank"><i class="fa fa-medium"></i></a></li>
+                                    <span class='profile-email'>|</span>
+                                    <span class='profile-email'>YSBORIKAR2411@GMAIL.COM</span>
+                                    <span class='profile-email'>|</span>
+                                    <span class='profile-email'>+918600914430</span>
+                                </ul> 
+                                <div class="break-email">
+                                    <span >YSBORIKAR2411@GMAIL.COM</span>
+                                    <span >|</span>
+                                    <span >+918600914430</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-8 text-container">
+                            <div class="col-md-12 text-box reveal" id="content">
+                                <section>
+                                    <div class="section-inner">
+                                        <h2 class="heading">About Me</h2>
+                                        <div class="content">
+                                            As a designer and developer of projects that require a laser focus on both, 
+                                            I unite form and function to meet user needs and business goals.
+                                            My area of expertise revolves around Data Science and Data Analytics as well as Software Development, Web Development.</p>
+                                            Currently working as Software Developer at Addnectar Solutions.
+                                            Before that, I intern as a Data Scientist at SparrowAI where I was responsible for statistical 
+                                            analysis of data in development of Customer Relational Management Tool 
+                                            and build visualization dashboards.
+                                        </div>
+                                    </div> 
+                                </section> 
+                            </div>
+                            <div class="col-md-12 text-box" id="inner-content">
+                                <section>
+                                    <div id="recentwork">
+                                        <h2 class="heading">Recent Work</h2>
+                                        <div class="row">
+                                            <!-- Machine Learning -->
+                                            <div class="reveal">
+                                                <div class="recentwork-section">
+                                                    <div id="summary" class="d-flex flex-row col-md-12">
+                                                        <img class="project-img p-2" src="images\Icons\Music.png" alt="" title="img" />
+                                                        <div class='p-2' id="project-title">
+                                                            Music Recommendation System based on user Facial Emotional Expression
+                                                        </div>
+                                                    </div>
+                                                    <div id="detail">
+                                                        <div>
+                                                            <p>
+                                                                Built a complete Facial Emotional Expression application using Keras CNN with Convolutional layers for 7-class (primary emotions) classification.
+                                                                Obtained a recognition accuracy of 95% for 40 epochs which is trained on NVIDIA Jetson Nano<br>
+                                                                Technologies used: Pandas, Numpy, Matplotlib, Keras, Tensorflow, OpenCV, Flask
+                                                            </p>
+                                                            <a href="https://github.com/YashBorikar/Emotion-Detection_Nvidia-Jetson-AI" target="_blank">View More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="recentwork-section">
+                                                    <div id="summary" class="d-flex flex-row col-md-12">
+                                                        <img class="project-img p-2" src="images\Icons\Sales.png" alt="" title="img" />
+                                                        <div class='p-2' id="project-title">
+                                                            Sales Insights Dashboard using Power BI
+                                                        </div>
+                                                    </div>
+                                                    <div id="detail">
+                                                        <div>
+                                                            <p>
+                                                                Sales Insight Dashboard of computer hardware supplies business organization from India which help sales 
+                                                                director of organization to take data driven decision to increase sales<br>
+                                                                Technologies used: MySQL Database, Power BI
+                                                            </p>
+                                                            <a href="https://github.com/YashBorikar/PowerBI_Sales-Insights" target="_blank">View More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="recentwork-section">
+                                                    <div id="summary" class="d-flex flex-row col-md-12">
+                                                        <img class="project-img p-2" src="images\Icons\Driver.png" alt="" title="img" />
+                                                        <div class='p-2' id="project-title">
+                                                            Driver Drowsiness Detection
+                                                        </div>
+                                                    </div>
+                                                    <div id="detail">
+                                                        <div>
+                                                            <p>
+                                                                Model use pre-trained un-toped InceptionV3 model architecture and obtained recognition 
+                                                                accuracy of 95% with DNN and Convolutional layers for binary image
+                                                                classification.<br>
+                                                                Technologies used: Pandas, Numpy, Matplotlib, Keras, Tensorflow, OpenCV
+                                                            </p>
+                                                            <a href="https://github.com/YashBorikar/Driver-Drowsiness" target="_blank">View More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="recentwork-section">
+                                                    <div id="summary" class="d-flex flex-row col-md-12">
+                                                        <img class="project-img p-2" src="images\Icons\Helmet.png" alt="" title="img" />
+                                                        <div class='p-2' id="project-title">
+                                                            Helmet Detection for Motorcyclists in Traffic
+                                                        </div>
+                                                    </div>
+                                                    <div id="detail">
+                                                        <div>
+                                                            <p>
+                                                                Obtained a helmet recognition accuracy of 80% for 150 epochs which is trained using 
+                                                                object detection YoloV5 model with custom dataset on CNN architecture
+                                                            </p>
+                                                            <a href="https://github.com/YashBorikar/Helmet-Detection" target="_blank">View More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="recentwork-section">
+                                                    <div id="summary" class="d-flex flex-row col-md-12">
+                                                        <img class="project-img p-2" src="images\Icons\Garbage.png" alt="" title="img" />
+                                                        <div class='p-2' id="project-title">
+                                                            Garbage Detection on Roadside and Public Place Litter
+                                                        </div>
+                                                    </div>
+                                                    <div id="detail">
+                                                        <div>
+                                                            <p>
+                                                                Built a complete Garbage Detection application using Keras CNN with Convolutional 
+                                                                layers for binary classification. Obtained accuracy of 84% for 25 epochs
+                                                            </p>
+                                                            <a href="https://github.com/YashBorikar/Garbage-Detection" target="_blank">View More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="recentwork-section">
+                                                    <div id="summary" class="d-flex flex-row col-md-12">
+                                                        <img class="project-img p-2" src="images\Icons\Covid.png" alt="" title="img" />
+                                                        <div class='p-2' id="project-title">
+                                                            Covid19 Infection Detection using Chest X-Ray Images
+                                                        </div>
+                                                    </div>
+                                                    <div id="detail">
+                                                        <div>
+                                                            <p>
+                                                                Model use pre-trained un-toped VGG16 model architecture and obtained recognition accuracy 
+                                                                of 87% for 20 epochs with DNN and Convolutional layers for binary image classification<br>
+                                                                Technologies used: Pandas, Numpy, Matplotlib, Sklearn, Keras, Tensorflow, OpenCV
+                                                            </p>
+                                                            <a href="https://github.com/YashBorikar/Covid-Detection" target="_blank">View More</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                </section>
+                                <section>
+                                    <div id="previouswork" class="reveal">
+                                        <h2 class="heading">Previous Work</h2>
+                                        <span>SparrowAI</span>
+                                        <span>Fastbadge</span>
+                                        <span>Vigilview</span>
+                                        <span>FellowFarmer</span>
+                                        <span>AddNectar</span>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div id="personalwork" class="reveal">
+                                        <h2 class="heading">Individual Undertaken Projects</h2>
+                                        <span>
+                                            <a href="https://www.linkedin.com/pulse/deploying-containerized-multi-tier-database-using-services-borikar/?trackingId=%2FxMdMWkbv9aNeePtsU4ALw%3D%3D" target="_blank">Google Cloud Platform</a><br>
+                                            Deployed a Multi-tier Web Application over GCP(Google Cloud Platform) using VPC Peering, 
+                                            Kubernetes Cluster, Load Balancer and SQL Database service of Google Cloud.
+                                        </span><br><br>
+                                        <span>
+                                            <a href="https://www.linkedin.com/posts/yashborikar_python-cgi-iiec-activity-6716740501820723200-BEo6?utm_source=linkedin_share&utm_medium=member_desktop_web" target="_blank">Docker</a><br>
+                                            Launch or Terminate/Remove DOCKER Container on Virtual Machine by Voice Control using Web API
+                                        </span><br><br>
+                                        <span>
+                                            <a href="https://ysborikar2411.pythonanywhere.com/" target="_blank">Swift</a><br>
+                                            Responsive Airline Ticket Booking Web-Application with provision to Book Airline Ticket.
+                                            This Web-Application provide Public view and Admin Management view. 
+                                        </span><br><br>
+                                        <span>
+                                            <a href="https://yash24.pythonanywhere.com/" target="_blank">Wanderlust</a><br>
+                                            Created Interactive Wanderlust Travel Blog Application with provision to Read, 
+                                            Comment, Share Blog and Create new Blog for Registered User.
+                                        </span><br><br>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
 
-                                    <h3>UI Technologies</h3><br>
-                                    <ul class="skill-list list-inline" style="font-weight: bold; text-align: center">
-                                        <li><img src="images\Icons\HTML.jpg" alt="HTML"><br>HTML</li>
-                                        <li><img src="images\Icons\CSS.png" alt="CSS" style="height: 68px"><br>CSS</li>
-                                        <li><img src="images\Icons\JS.jpg" alt="JS"><br>JavaScript</li>
-                                        <li><img src="images\Icons\Bootstrap.jpg" alt="Bootstrap"><br>Bootstrap</li>
-                                    </ul><br>
 
-                                    <h3>IT Technologies</h3><br>
-                                    <ul class="skill-list list-inline" style="font-weight: bold; text-align: center">
-                                        <li><img src="images\Icons\GCP.jpg" alt="GCP"style="height: 50px"><br>Google Cloud Platform</li>
-                                        <li><img src="images\Icons\azure.jpg" alt="azure" style="height: 80px"><br>Microsoft Azure Cloud</li>
-                                        <li><img src="images\Icons\Docker.jpg" alt="Docker" style="width: 110px; height: 80px"><br>Docker</li>
-                                        <li><img src="images\Icons\Git.jpg" alt="Git"><br>Git & GitHub</li>
-                                    </ul>
+                        <div class="col-md-4">
+                            <div class="col-md-12" id="content">
+                                <section>
+                                    <div class="section-aside section-inner reveal" style="transition-delay: 0ms;">
+                                        <h2 class="aside-heading">Skills</h2>
+                                        <div class="content">
+                                            <h5>Programming Language and Frameworks</h5><br>
+                                                <ul class="skill-list list-inline" style="font-weight: bold;">
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\Python.jpg">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>Python</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:90%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\Django.png" style="width: 28px;">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>Django Framework and Django Rest Framework</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:80%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\React.png" style="width: 28px;">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>ReactJS</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:70%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\Flutter.png" style="width: 22px;">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>Flutter</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:40%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\JS.jpg">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>HTML, CSS, JavaScript, Ajax, JQuery</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:90%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\Bootstrap.png" style="width: 30px;">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>Bootstrap, Tailwind</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:100%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\Odoo.png">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>Odoo ERP</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:80%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>                          
+                     
+                                                <h5>Python Libraries</h5><br>
+                                                <ul class="skill-list list-inline" style="font-weight: bold">
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\Numpy.png">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>Numpy, Pandas</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:80%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\Matplotlib.png">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>Matplotlib, Seaborn</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:70%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\Scipy.png">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>SciPy, Statsmodel</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:70%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\Tensorflow.png" style="width: 28px;">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>Tensorflow, Keras</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:70%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\Opencv.png" style="width: 28px;">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>OpenCV, NLTK</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:70%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>             
+            
+                                                <h5>Databases</h5><br>
+                                                <ul class="skill-list list-inline" style="font-weight: bold">
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\MongoDB.png" style="width: 28px;">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>SQL, PostgreSQL, MongoDB</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:80%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+            
+                                                <h5>Tools/Technologies</h5><br>
+                                                <ul class="skill-list list-inline" style="font-weight: bold">
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\Git.jpg">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>Git, GitHub</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:80%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\PowerBI.png">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>PowerBI</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:80%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\GCP.jpg" style="width: 28px;">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>Google Cloud Plaform, Microsoft Azure</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:80%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-lg-2">
+                                                                <img src="images\Icons\Docker-icon.png" style="width: 32px;">
+                                                            </div>
+                                                            <div class="col-lg-10">
+                                                                <span>Docker</span>
+                                                                <div class="skills-bar">
+                                                                    <div class="skill-progress-bar">
+                                                                      <span id="progress" class="progress-bar-fill" style="width:70%;"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
 
-                                <br><p><a href="https://www.linkedin.com/in/ysborikar2411" target="_blank"><i class="fa fa-external-link"></i> More on Linkedin</a></p> 
-      
-                        </div><!--//content-->  
-                    </div>               
-                </section><!--//section-->
-                <section>
-                    <div class="section-aside">
-                        <div class="content" align="center">
-                        	<a class="btn btn-lg btn-info button" href="https://drive.google.com/drive/folders/1CcUFp7j0zzcYp2VDndjUwneE8_IRLxip?usp=sharing" target="_blank"><span class="glyphicon glyphicon-file"></span>&nbsp Certificates</a>
-                        </div><!--//content-->  
-                    </div><!--//section-aside-->                 
-            	</section>
-            </div><!--//secondary-->
-        </div><!--//row-->
+                                                <h5>Machine Learning Algorithms</h5><br>
+                                                <ul class="skill-list list-inline" style="font-weight: bold">
+                                                    <li>Supervised Learning
+                                                        <div class="skills-bar">
+                                                            <div class="skill-progress-bar">
+                                                              <span id="progress" class="progress-bar-fill" style="width:90%;"></span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>Unsupervised Learning
+                                                        <div class="skills-bar">
+                                                            <div class="skill-progress-bar">
+                                                              <span id="progress" class="progress-bar-fill" style="width:90%;"></span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>Neural Networks
+                                                        <div class="skills-bar">
+                                                            <div class="skill-progress-bar">
+                                                              <span id="progress" class="progress-bar-fill" style="width:90%;"></span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>Natural Language Processing
+                                                        <div class="skills-bar">
+                                                            <div class="skill-progress-bar">
+                                                              <span id="progress" class="progress-bar-fill" style="width:70%;"></span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>Computer Vision
+                                                        <div class="skills-bar">
+                                                            <div class="skill-progress-bar">
+                                                              <span id="progress" class="progress-bar-fill" style="width:90%;"></span>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            <br>
+                                            <p>
+                                                <a href="https://www.linkedin.com/in/yashborikar" target="_blank"><i class="fa fa-external-link"></i> More on Linkedin</a>
+                                            </p> 
+                  
+                                    </div><!--//content-->
+                                    </div> 
+                                </section> 
+                            </div>
+                        </div>
+                        <div id="inner-content">
+                            <section>
+                                <div class="getintouch">
+                                    <h2>GET IN TOUCH</h2>
+                                    <div class="content">
+                                        <p>Drop me a line to say hello or talk about opportunities</p>
+                                            <ul class="social list-group list-group-horizontal" style="list-style: none;">
+                                                <li><a href="https://www.linkedin.com/in/yashborikar" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="mailto:ysborikar2411@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                                                <li><a href="tel:+918600914430"><i class="fa fa-phone"></i></a></li>
+                                            </ul> 
+                                    </div>
+                                </div> 
+                            </section> 
+                        </div>
+                        <div id="inner-content">
+                            <section>
+                                <div class="designby">
+                                    <h6>Design by Yash Borikar</h6>
+                                </div> 
+                            </section> 
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-		<div class="row">
-            <div class="contact col-md-12 col-sm-12 col-xs-12">
-            <!--===== CONTACT =====-->
-                <section>
-                	<div class="section-inner" style="text-align: center">
-                	<h2 class="heading">Contact</h2>
-	                	<div class="content">
-			                <form action="https://formspree.io/f/mbjpeevg" method="POST">
-			                      <p><input type="text" placeholder="Name" name="name" class="contact_field"></p>
-			                      <p><input type="email" placeholder="Email" name="_replyto" class="contact_field"></p>
-			                      <p><textarea placeholder="Write to me.." rows="7" name="message" class="contact_field"></textarea></p>
-			                      <input type="submit" class="btn btn-lg btn-info" value=" Send ">
-			                </form>
-			            </div><!--//content-->
-		        	</div><!--//section-inner-->
-            	</section><!--//section-->
-            </div><!--//contact-->
-        </div><!--//row-->
 
-    </div><!--//container-->
-
-    <!-- ******FOOTER****** --> 
-    <footer>
-            <p>&copy; 2021 Yash Borikar. Copyright all rights reserved</p>
-    </footer><!-- //footer -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
 </body>
 </html>
-
