@@ -451,21 +451,21 @@ window.addEventListener("mousewheel", reveal);
 //   // $("#project-image").addClass("project-image");
 // });
 
-// $(".recentwork-section").hover(function(){
-//   $( ".recentwork-section" ).each(function() {
-//       // $(this).children(".mask").toggleClass('maskHover');
-//       $(this).children("#project-title").addClass("project-title");
-//       $(this).children("#project-title").removeClass("col-md-10");
-//       $(this).children("#project-title").addClass("col-12");
-//       $(this).children("#project-image").removeClass("col-md-2");
-//       $(this).children("#project-image").addClass("project-image-hover");
-
-//   });
-//   $(this).children("#project-title").removeClass("project-title");
-//   $(this).children("#project-title").addClass("col-md-10");
-//   $(this).children("#project-title").removeClass("col-12");
-//   $(this).children("#project-image").addClass("col-md-2");
-//   $(this).children("#project-image").removeClass("project-image-hover");
+// $(window).load(function () {
+//   var viewportWidth = $(window).width();
+//   if (viewportWidth < 600) {
+//     $("#skills-section").removeClass("reveal");
+//     $("#content").removeClass("reveal");
+//     $("#recent-work-sec").removeClass("reveal");
+//     $("#previouswork").removeClass("reveal");
+//     $("#personalwork").removeClass("reveal");
+//   }
 // });
 
-
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  $("#skills-section").removeClass("reveal");
+  $("#content").removeClass("reveal");
+  $("#recent-work-sec").removeClass("reveal");
+  $("#previouswork").removeClass("reveal");
+  $("#personalwork").removeClass("reveal");
+ }
