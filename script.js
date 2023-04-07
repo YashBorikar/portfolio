@@ -334,7 +334,7 @@ document.body.style.background = "url(" + canvas.toDataURL() + ")";
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Data Science Enthusiast", "Data Analyst", "Python Software Developer", ];
+const textArray = ["Data Science Enthusiast", "Data Analyst", "Python Developer", ];
 
 const typingDelay = 180;
 const erasingDelay = 150;

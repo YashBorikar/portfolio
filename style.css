@@ -299,7 +299,7 @@ canvas {
 
 @media (min-width: 1140px) {
   #overlay {
-    top:12%;
+    top:10%;
   }
     #content {
     top: 48em;
